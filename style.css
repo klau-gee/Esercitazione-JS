@@ -1,0 +1,260 @@
+/* Setting */
+body{
+    margin: 0;
+    background-color: var(--black);
+}
+
+:root{
+    --white: #FFF8F0;
+    --grey: #9e9e9e;
+    --black: #323030;
+    --dark-black: #211f1f;
+    --yellow: #f2c850;
+    --purple: #5932e5;
+}
+
+.font-title{
+    font-family: 'Orbitron', sans-serif;
+}
+.font-secondary{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Background colors */
+.bg-white-custom{
+    background-color: var(--white);
+}
+
+.bg-grey-custom{
+    background-color: var(--grey);
+}
+
+.bg-dark-custom{
+    background-color: var(--black);
+}
+.bg-darkblack-custom{
+    background-color: var(--dark-black);
+}
+.bg-yellow-custom{
+    background-color: var(--yellow);
+}
+.bg-purple-custom{
+    background-color: var(--purple);
+}
+
+/* Colore per i testi */
+.font-white-custom{
+    color: var(--white);
+}
+.font-yellow-custom{
+    color: var(--yellow);
+}
+.font-purple-custom{
+    color: var(--purple);
+}
+
+.font-darkblack-custom{
+    color: var(--dark-black);
+}
+
+/* first nav */
+.first-nav{
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    transition: 0.5;
+}
+
+.animation-gradient{
+    background: linear-gradient(to top, rgba(33, 31, 31, 0.768) 0%, #856a1f7b 100%);
+    background-size: 400% 400%;
+    animation: gradient 3s ease 0.5s infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 50% 0%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 50% 0%;
+    }
+}
+
+.first-nav span{
+    letter-spacing: 2px;
+}
+
+.container-nav{
+    z-index: 3;
+}
+
+.navbar-logo-custom{
+    width: 80px;
+}
+
+.second-nav{
+    transform: translateY(-100px);
+    border-bottom: 2px solid var(--yellow);
+    box-shadow: 2px 2px 20px 5px var(--black);
+    transition: 0.5s;
+    z-index: 3;
+    backdrop-filter: blur(15px);
+}
+
+/* header */
+.header-custom{
+    margin-top: 80px;
+    height: calc(100vh - 80px);
+    background-image: linear-gradient(rgba(0,0,0,0.2), black), url(./media/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-img{
+    width: 42rem;
+    filter: drop-shadow(0 -6mm 4mm black);
+    z-index: 1;
+}
+
+h1{
+    letter-spacing: 3px;
+    line-height: 130%;
+    font-size: 4rem;
+    text-shadow: 12px 12px var(--yellow);
+    color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: url(./media/background.jpg);
+    background-size: 120%;
+    animation: animation-background 10s ease-in-out infinite;
+}
+
+@keyframes animation-background {
+    0%{background-position: 0% 0%;}
+    50%{background-position: 100% 100%;}
+    0%{background-position: 0% 0%;}
+    
+}
+
+.header-cta{
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    color: var(--yellow);
+}
+
+.cardContainer{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 180px;
+}
+
+.cardBody {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px);
+    background-color: rgba(36, 36, 36, 0.357) !important;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* pagina giochi */
+.card{
+    height: 160px;
+    width: 480px;
+    background-color: var(--dark-black);
+    border: 1px solid var(--yellow);
+}
+
+.size-img{
+    height: 158px;
+    width: 120px;
+}
+
+/* swiper */
+.swiper{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background: linear-gradient(to top, var(--dark-black), var(--yellow));
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+/* TODO style games.index */ 
+.accordion-col{
+    margin-top: 150px;
+}
+
+.accordion-button{
+    background-color: var(--yellow);
+}
+
+.accordion-button:not(.collapsed){
+    background-color: var(--yellow);
+}
+
+
+
+/* media query mobile */
+@media screen and (max-width: 600px){
+    .second-nav{
+        transform: translateY(-170px);
+    }
+    h1{
+        font-size: 3rem;
+        text-shadow: 5px 5px var(--yellow);
+        color: transparent;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-image: url(./media/background.jpg);
+        background-size: 120%;
+        animation: animation-background 10s ease-in-out infinite;
+    }
+    .cardContainer{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 280px;
+        height: 160px;
+    }
+    .mar-small-screen{
+        margin-bottom: 10px;
+    }
+    .size-img{
+        display: none;
+    }
+    .card{
+        height: 150px;
+        width: 180px;
+        background-color: var(--dark-black);
+        border: 1px solid var(--yellow);
+        font-size: 20px;
+    }
+    h5{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 24px;
+        
+    }
+}

@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "name": "Grand Theft Auto V",
+        "category": "Azione",
+        "price": 243,
+        "url" : "media/gta.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "The Witcher 3: Wild Hunt'",
+        "category": "Avventura",
+        "price": 665,
+        "url" : "media/The Witcher 3.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Counter-Strike: Global Offensive",
+        "category": "Sparatutto",
+        "price": 209,
+        "url" : "media/Counter-Strike- Global Offensive.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Tomb Raider (2013)",
+        "category": "Avventura",
+        "price": 538,
+        "url" : "media/Tomb Raider (2013).jpeg"
+    },
+    {
+        "id": 5,
+        "name": "The Elder Scrolls V: Skyrim",
+        "category": "Avventura",
+        "price": 87,
+        "url" : "media/The Elder Scrolls V- Skyrim.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Fifa 23",
+        "category": "Sport",
+        "price": 192,
+        "url" : "media/Fifa 23.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "NBA 2k24",
+        "category": "Sport",
+        "price": 428,
+        "url" : "media/NBA 2k24.webp"
+    },
+    {
+        "id": 8,
+        "name": "Portal",
+        "category": "Azione",
+        "price": 360,
+        "url" : "media/Portal.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Call of Duty - Black OPS 2",
+        "category": "Sparatutto",
+        "price": 859,
+        "url" : "media/Call of Duty - Black OPS 2.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Tomb Raider: Underworld",
+        "category": "Avventura",
+        "price": 679,
+        "url" : "media/Tomb Raider- Underworld.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "Syberia",
+        "category": "Azione",
+        "price": 420,
+        "url" : "media/Syberia.webp"
+    },
+    {
+        "id": 12,
+        "name": "League of legends",
+        "category": "MOBA",
+        "price": 185,
+        "url" : "media/League of legends.jpeg"
+    },
+    {
+        "id": 13,
+        "name": "Smite",
+        "category": "MOBA",
+        "price": 591,
+        "url" : "media/Smite.jpeg"
+    },
+    {
+        "id": 14,
+        "name": "DOTA 2",
+        "category": "MOBA",
+        "price": 200,
+        "url" : "media/DOTA 2.jpeg"
+    },
+    {
+        "id": 15,
+        "name": "Super Mario 64",
+        "category": "Azione",
+        "price": 513,
+        "url" : "media/Super Mario 64.jpeg"
+    },
+    {
+        "id": 16,
+        "name": "Resident Evil 4 (2005)",
+        "category": "Horror",
+        "price": 380,
+        "url" : "media/Resident Evil 4 (2005).jpeg"
+    },
+    {
+        "id": 17,
+        "name": "Left 4 Dead 2",
+        "category": "Horror",
+        "price": 736,
+        "url" : "media/Left 4 Dead 2.jpeg"
+    },
+    {
+        "id": 18,
+        "name": "Alan Wake",
+        "category": "Horror",
+        "price": 722,
+        "url" : "media/Alan Wake.jpeg"
+    },
+    {
+        "id": 19,
+        "name": "Phasmophobia",
+        "category": "Horror",
+        "price": 793,
+        "url" : "media/Phasmophobia.png"
+    },
+    {
+        "id": 20,
+        "name": "Team Fortress 2",
+        "category": "Sparatutto",
+        "price": 783,
+        "url" : "media/Team Fortress 2.png"
+    },
+    {
+        "id": 21,
+        "name": "Fortnite",
+        "category": "Sparatutto",
+        "price": 813,
+        "url" : "media/Fortnite.jpeg"
+    },
+    {
+        "id": 22,
+        "name": "Forza Motorsport",
+        "category": "Sport",
+        "price": 432,
+        "url" : "media/Forza Motorsport.jpeg"
+    },
+    {
+        "id": 23,
+        "name": "Horizon Zero Dawn",
+        "category": "Avventura",
+        "price": 826,
+        "url" : "media/Horizon Zero Dawn.jpeg"
+    },
+    {
+        "id": 24,
+        "name": "Gran Turismo",
+        "category": "Sport",
+        "price": 101,
+        "url" : "media/Gran Turismo.webp"
+    },
+    {
+        "id": 25,
+        "name": "Forza Horizon",
+        "category": "Sport",
+        "price": 957,
+        "url" : "media/Forza Horizon.jpeg"
+    },
+    {
+        "id": 26,
+        "name": "The Finals",
+        "category": "Sparatutto",
+        "price": 369,
+        "url" : "media/The Finals.jpeg"
+    },
+    {
+        "id": 27,
+        "name": "Battlefield 2",
+        "category": "Sparatutto",
+        "price": 896,
+        "url" : "media/Battlefield 2.jpeg"
+    },
+    {
+        "id": 28,
+        "name": "Apex Legends",
+        "category": "Sparatutto",
+        "price": 640,
+        "url" : "media/Apex Legends.jpeg"
+    },
+    {
+        "id": 29,
+        "name": "Ori and the blind Forest",
+        "category": "Avventura",
+        "price": 560,
+        "url" : "media/Ori and the blind Forest.jpeg"
+    },
+    {
+        "id": 30,
+        "name": "Dark Souls",
+        "category": "Horror",
+        "price": 603,
+        "url" : "media/Dark Souls.jpeg"
+    }
+]
